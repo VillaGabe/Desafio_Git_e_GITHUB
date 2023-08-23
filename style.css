@@ -14,9 +14,25 @@ body {
 }
 .botoes {
 	display: flex;
-	width: 10vw;
+	width: 40vw;
+	justify-content: space-evenly;
 }
 .botao {
 	font-size: 2rem;
+	font-weight: bold;
 	padding: 20px;
+	width: 250px;
+	height: 100px;
+	border-radius: 50px;
+	border: none;
+	color: #e9fff9;
+}
+.incremento {
+	background-color: #d64045;
+}
+.decremento {
+	background-color: #1d3354;
+}
+.reset {
+	background-color: #9ed8db;
 }
